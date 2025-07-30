@@ -46,7 +46,7 @@ public class HomePage {
 
     @FindBy(xpath = "//span[@role='button'][@aria-label='Next Month']")
     WebElement nextMonthNav;
-/*
+/* Need to remove these elements but ketp for reference for future use.
     @FindBy(xpath = "//div[@class='DayPicker-Months']//div[@class='DayPicker-Caption']/div[contains(text(),'{0}}')]")
     WebElement monthName;
 
